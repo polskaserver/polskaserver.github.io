@@ -7,31 +7,50 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
+            background: #032100;
+            color: white;
             text-align: center;
+            margin: 0;
+            padding: 20px;
         }
         .container {
             max-width: 600px;
             margin: 0 auto;
             padding: 20px;
+            background-color: rgba(28, 28, 28, 0.8);
+            border: 3px solid #289b24;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
         h1 {
-            font-size: 24px;
-            color: #333;
+            font-size: 2.5em;
+            color: #4dff7a;
+            margin-bottom: 0.5em;
         }
         p {
-            font-size: 16px;
-            color: #666;
+            font-size: 1.2em;
+            color: #ffffff;
+            margin-bottom: 1.5em;
+        }
+        a {
+            color: #289b24;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin: 10px 0;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Wrong turn?</h1>
-        <p>You look lost, stranger. You know what helps when you’re lost? A piping hot bowl of noodles. Take a seat, we’re frantically at work here cooking up something good. Oh, you need something to read? These might help you:</p>
-        <!-- You can add more content or links here -->
-        <a href="https://x.com/helloits_wojan" onclick="document.location.href = 'https://x.com/helloits_wojan'; return false;">My Twitter/X</a>
-        <a href="https://helloitswojan2.github.io/support" onclick="document.location.href = 'https://helloitswojan2.github.io/support'; return false;">Support Form</a>
+        <h1>404 Page Not Found</h1>
+        <p>Oops! It looks like the page you're looking for doesn't exist. But don't worry, we’ve got some useful links below to help you find your way:</p>
+        <a href="https://x.com/helloits_wojan" target="_blank">My Twitter/X</a>
+        <a href="https://helloitswojan2.github.io/support" target="_blank">Support Form</a>
+        <p>If you believe this is an error, please contact us for assistance.</p>
     </div>
 </body>
 </html>
