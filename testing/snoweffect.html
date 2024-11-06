@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snow Effect</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #000; /* Dark background to make the snow more visible */
+        }
+        .snowflake {
+            position: absolute;
+            top: -10px;
+            color: #FFF; /* Snowflake color */
+            font-size: 1em;
+            will-change: transform;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        const numFlakes = 100; // Number of snowflakes
+        const snowflakes = [];
+
+        for (let i = 0; i < numFlakes; i++) {
+            let snowflake = document.createElement('div');
+            snowflake.className = 'snowflake';
+            snowflake.style.left = `${Math.random() * 100}vw`;
+            snowflake.style.animationDuration = `${Math.random() * 3 + 2}s`;
+            snowflake.style.fontSize = `${Math.random() * 24 + 10}px`;
+            snowflake.innerText = '❄'; // Snowflake character
+            document.body.appendChild(snowflake);
+            snowflakes.push(snowflake);
+        }
+
+        function animateSnowflakes() {
+            snowflakes.forEach(snowflake => {
+                let offset = parseFloat(snowflake.style.left);
+                let speed = parseFloat(snowflake.style.animationDuration);
+                let size = parseFloat(snowflake.style.fontSize);
+                snowflake.style.top = `${parseFloat(snowflake.style.top || -10) + size / 2}px`;
+
+                if (parseFloat(snowflake.style.top) > window.innerHeight) {
+                    snowflake.style.top = '-10px';
+                }
+            });
+            requestAnimationFrame(animateSnowflakes);
+        }
+
+        animateSnowflakes();
+    </script>
+</body>
+</html>
