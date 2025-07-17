@@ -74,7 +74,7 @@
             <h3><strong>Unboxing a new Discord brand&nbsp;</strong></h3>
             <p>Finally, I’m excited to share with everyone a refreshed look and visual identity to reflect the future of people playing games together. This new look celebrates the fun friends have together while talking, playing, and hanging out on Discord. You’ll see this in different places starting today, and we hope you dig it.</p>
             <figure style="padding-bottom:56.206088992974244%" class="w-richtext-align-fullwidth w-richtext-figure-type-video">
-                <div><iframe allowfullscreen="true" frameborder="0" scrolling="no" src="https://www.youtube.com/embed/7V5jdOjWVU4" title="Discord - Group Chat That's All Fun &amp; Games"></iframe></div>
+                <iframe width="1366" height="768" src="https://www.youtube.com/embed/7V5jdOjWVU4?si=Kvd48JstmVttrSC2" title="Discord - Group Chat That's All Fun and Games" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </figure>
             <p>Over the next decade, we believe another billion people will be playing multiplayer games and enjoying the kinds of deep, rich experiences that we all have come to love. It’ll be more important than ever for us to provide a fast, seamless, and powerful service to talk with your friends before, during, and after playing those games, no matter what device you play on.&nbsp;</p>
             <p>As we build towards this future, we’re excited to continue to welcome anyone who has found a place on Discord to help them have more fun and build relationships with friends online.</p>
